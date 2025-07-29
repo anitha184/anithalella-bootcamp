@@ -3,6 +3,25 @@
     "id": "page-metadata",
     "fields": [
       {
+  "id": "quote",
+  "fields": [
+     {
+       "component": "richtext",
+       "name": "quote",
+       "value": "",
+       "label": "Quote",
+       "valueType": "string"
+     },
+     {
+       "component": "text",
+       "valueType": "string",
+       "name": "author",
+       "label": "Author",
+       "value": ""
+     }
+   ]
+},
+      {
         "component": "text",
         "valueType": "string",
         "name": "jcr:title",
